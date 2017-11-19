@@ -9,12 +9,12 @@ for w in range(100):
     fizz = x % 3 == 0
     buzz = x % 5 == 0
     
-if fizz:
-    if buzz:
-        print('FizzBuzz')
-    else: 
-        print('Fizz')
-elif buzz:
-    print('Buzz')
-else:
-    print (x)
+    if fizz:
+        if buzz:
+            print('FizzBuzz')
+        else: 
+            print('Fizz')
+    elif buzz:
+        print('Buzz')
+    else:
+        print (x)
